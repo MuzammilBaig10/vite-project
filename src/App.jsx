@@ -10,7 +10,7 @@ const App = () => {
     <div>Age: 20</div>
     <ButtonCustom/>
     </>
-  )
+  ) 
 }
 
 export default App;
