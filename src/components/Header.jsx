@@ -17,9 +17,9 @@ const Header = () => {
         <li><button className="support-button">SUPPORT</button></li>
       </ul>
       <div className="navbar-social">
-        <a href="#facebook"><i className="fab fa-facebook"></i></a>
-        <a href="#instagram"><i className="fab fa-instagram"></i></a>
-        <a href="#youtube"><i className="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/NICSverige/"><i className="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/nicsverige"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@norrbottenislamiccenter8126"><i className="fab fa-youtube"></i></a>
       </div>
     </nav>
     </>
