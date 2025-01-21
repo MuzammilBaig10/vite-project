@@ -1,14 +1,11 @@
-import { FaUserSecret } from "react-icons/fa";
-import ButtonCustom from "./components/ButtonCustom";
 import './App.css'
+import Header from './components/Header';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   return (
     <>
-    <div>Name: Muzammil Baig</div>
-    <FaUserSecret size={500} />
-    <div>Age: 20</div>
-    <ButtonCustom/>
+    <Header/>
     </>
   ) 
 }
