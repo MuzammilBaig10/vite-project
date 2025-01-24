@@ -18,7 +18,7 @@ const PrayerTimingsAndFeeds = () => {
           </div>
         </div>
       </div>
-    );
+    )
 }
   
   export default PrayerTimingsAndFeeds;

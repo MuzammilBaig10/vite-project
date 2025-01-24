@@ -11,7 +11,7 @@ const Herosection = () => {
         northern county of Sweden, Norrbotten.
       </p>
     </div>
-  );
-};
+  )
+}
 
 export default Herosection;
