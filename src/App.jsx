@@ -4,6 +4,7 @@ import Herosection from './components/Herosection';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import PrayerTimingsAndFeeds from './components/PrayerTimingAndFeeds';
 import Mission from './components/Mission';
+import Quranicverse from './components/Quranicverse';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
     <Herosection/>
     <PrayerTimingsAndFeeds/>
     <Mission/>
+    <Quranicverse/>
     </>
   ) 
 }

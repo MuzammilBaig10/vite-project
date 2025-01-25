@@ -184,7 +184,7 @@ ul li {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container-1 {
+/* .container-1 {
   background-color: #0D6CAC;
   font-family: 'Montserrat', sans-serif;
 
@@ -199,9 +199,9 @@ ul li {
   line-height: 47.6px;
   color: #E8F2F8;
   text-align: center;
-}
+} */
 
-.text-2 {
+/* .text-2 {
 padding-left: 100px;
 padding-right: 580px;
 padding-bottom: 40px;
@@ -237,8 +237,8 @@ color: #E8F2F8;
 }
 
 .donate-button {
-  background-color: #fdc500; /* Yellow background */
-  color: #0d66a0; /* Blue text color */
+  background-color: #fdc500; 
+  color: #0d66a0;
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
@@ -251,9 +251,9 @@ color: #E8F2F8;
 .mission-image {
   max-width: 40%;
   text-align: center;
-}
+} */
 
-.mission-image img {
+/* .mission-image img {
   width: 100%;
   object-fit: cover;
 }
@@ -264,4 +264,132 @@ color: #E8F2F8;
   font-size: 22.4px;
   line-height: 27.2px;
   color: #E8F2F8;
+} */
+
+.mission-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d66a0;
+  color: #ffffff;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.mission-content {
+  max-width: 50%;
+}
+
+.mission-content h2 {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 47.6px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+.mission-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  margin-bottom: 30px;
+}
+
+.mission-content h3 {
+  font-size: 27.2px;
+  font-weight: 900;
+  line-height: 38.08px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.p2 {
+  margin-bottom: 13px !important;
+  color: #fdc500;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+}
+
+.donate-button {
+  background-color: #fdc500;
+  color: #0d66a0;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+
+}
+
+.donate-button:hover {
+  background-color: #ffca28;
+}
+
+.mission-image {
+  max-width: 40%;
+  text-align: center;
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tomb {
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+background-color: #E8F2F8;
+color: #0D6CAC;
+}
+
+.img-one {
+  margin-top: 10px;
+}
+
+.tomb h2 {
+  margin-top: 15px;
+  font-size: 33.6px;
+  font-weight: 700;
+  line-height: 47.04px;
+}
+
+.tomb p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 5px;
+}
+
+.tomb h5 {
+  font-size: 16;
+  font-weight: 700;
+  line-height: 27.2px;
+  margin-bottom: 10px;
+}
+
+.tomb h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  margin-bottom: 70px;
+}
+
+.hadith1 {
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px !important;
+}
+
+.tomb h1 {
+  margin-top: 80px;
+  margin-bottom: 20PX;
 }
