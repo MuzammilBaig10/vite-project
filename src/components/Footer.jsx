@@ -1,6 +1,6 @@
 import image from '../assets/logo2.svg'
 
-const Footer = () => {
+const Footer = () => {  
     return (
       <footer className="footer-container">
         <div className="footer-section">
